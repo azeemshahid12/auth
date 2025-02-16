@@ -27,19 +27,19 @@ button.addEventListener("click", async () => {
         }); 
         if(error){
             console.log(error);
-            Swal.fire({
-                icon: "error",
-                title: "Oops...",
-                text: "Invalid email!",
-              });
+            // Swal.fire({
+            //     icon: "error",
+            //     title: "Oops...",
+            //     text: "Invalid email!",
+            //   });
         }
         else{
             console.log("Success", data)
-            Swal.fire({
-                title: "Successfully Signed up",
-                icon: "success",
-                draggable: true
-              });
+            // Swal.fire({
+            //     title: "Successfully Signed up",
+            //     icon: "success",
+            //     draggable: true
+            //   });
 
         }
       }
